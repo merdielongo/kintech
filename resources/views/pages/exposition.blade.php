@@ -14,7 +14,7 @@
             </div>
 
             <div class="mb-3 form-group col-lg-4">
-                <b>{!! Form::label('Secteur d\'activite') !!}</b>
+                <b>{!! Form::label('Secteur d\'activité') !!}</b>
                 {!! Form::text('project', null, ['class'=> 'form-control']) !!}
             </div>
 
@@ -34,7 +34,7 @@
             </div>
 
             <div class="mb-3 form-group col-lg-4">
-                <b>{!! Form::label('Numero de telephone') !!}</b>
+                <b>{!! Form::label('Numéro de télèphone') !!}</b>
                 {!! Form::text('project', null, ['class'=> 'form-control']) !!}
             </div>
 
