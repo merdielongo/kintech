@@ -16,7 +16,7 @@
 
                         </div>
                         <ul class="text-sm list-group list-group-flush">
-                            <li class="list-group-item">sponsor officielle: <b>NON</b></li>
+                            <li class="list-group-item">sponsor officiel: <b>NON</b></li>
                             <li class="list-group-item">Exclusivité sectorielle : <b>NON</b></li>
                             <li class="list-group-item">comptoir de présentation : <b>OUI</b></li>
                             <li class="list-group-item">branding site roll-up : <b>1</b></li>
@@ -47,7 +47,7 @@
 
                         </div>
                         <ul class="text-sm list-group list-group-flush">
-                            <li class="list-group-item">sponsor officielle: <b>NON</b></li>
+                            <li class="list-group-item">sponsor officiel: <b>NON</b></li>
                             <li class="list-group-item">Exclusivité sectorielle : <b>NON</b></li>
                             <li class="list-group-item">comptoir de présentation : <b>OUI</b></li>
                             <li class="list-group-item">branding site roll-up : <b>2</b></li>
@@ -78,7 +78,7 @@
 
                         </div>
                         <ul class="text-sm list-group list-group-flush">
-                            <li class="list-group-item">sponsor officielle: <b>OUI</b></li>
+                            <li class="list-group-item">sponsor officiel: <b>OUI</b></li>
                             <li class="list-group-item">Exclusivité sectorielle : <b>NON</b></li>
                             <li class="list-group-item">comptoir de présentation : <b>OUI</b></li>
                             <li class="list-group-item">branding site roll-up : <b>4</b></li>
@@ -108,7 +108,7 @@
 
                         </div>
                         <ul class="text-sm list-group list-group-flush">
-                            <li class="list-group-item">sponsor officielle: <b>OUI</b></li>
+                            <li class="list-group-item">sponsor officiel: <b>OUI</b></li>
                             <li class="list-group-item">Exclusivité sectorielle : <b>OUI</b></li>
                             <li class="list-group-item">comptoir de présentation : <b>OUI</b></li>
                             <li class="list-group-item">branding site roll-up : <b>4</b></li>
