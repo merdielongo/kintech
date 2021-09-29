@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 360px) {
+    header {height: 900px !important;}
+    #videoBanner {margin-bottom: 50px;height: 900px;object-fit: cover;z-index: -100 !important}
+
+}
