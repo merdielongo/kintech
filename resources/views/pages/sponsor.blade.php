@@ -63,7 +63,7 @@
                             <li class="list-group-item">Logo sur élément de décorations : <b>NON</b></li>
                             <li class="list-group-item">Invitations : <b>3</b></b></li>
                         </ul>
-                        <a href="{{ route('home.sponsoring', 1) }}" class="mt-3 rounded-full w-100 btn btn-info rounded-pill">Selectionnez</a>
+                        <a href="{{ route('home.sponsoring', 2) }}" class="mt-3 rounded-full w-100 btn btn-info rounded-pill">Selectionnez</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                             <li class="list-group-item">Logo sur élément de décorations : <b>OUI</b></li>
                             <li class="list-group-item">Invitations : <b>5</b></b></li>
                         </ul>
-                        <a href="{{ route('home.sponsoring', 1) }}" class="mt-3 rounded-full w-100 btn btn-info rounded-pill">Selectionnez</a>
+                        <a href="{{ route('home.sponsoring', 3) }}" class="mt-3 rounded-full w-100 btn btn-info rounded-pill">Selectionnez</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                             <li class="list-group-item">Logo sur élément de décorations : <b>OUI</b></li>
                             <li class="list-group-item">Invitations : <b>8</b></b></li>
                         </ul>
-                        <a href="{{ route('home.sponsoring', 1) }}" class="mt-3 rounded-full w-100 btn btn-info rounded-pill">Selectionnez</a>
+                        <a href="{{ route('home.sponsoring', 4) }}" class="mt-3 rounded-full w-100 btn btn-info rounded-pill">Selectionnez</a>
                     </div>
                 </div>
             </div>
