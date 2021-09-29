@@ -32,7 +32,7 @@
             </div>
 
             <div class="mb-3 form-group col-lg-4">
-                <b>{!! Form::label('Numero de telephone') !!}</b>
+                <b>{!! Form::label('Numéro de télèphone') !!}</b>
                 {!! Form::text('project', null, ['class'=> 'form-control', 'wire:model' => 'phone']) !!}
             </div>
         </div>
