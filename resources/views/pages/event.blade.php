@@ -62,7 +62,7 @@
 
                     <div class="flex-row p-3 mb-2 border-0 card d-flex">
                         <div class="text-success fas fa-th fa-2x pe-4"></div>
-                        <div class="fw-bold">Entreprises publiques.</div>
+                        <div class="fw-bold">Entreprises publics</div>
                     </div>
 
                     <div class="flex-row p-3 mb-2 border-0 card d-flex">
