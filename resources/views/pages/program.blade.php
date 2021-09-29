@@ -7,7 +7,7 @@
         <div class="row">
             <center>
                 <span>EDITION 2021</span> <br>
-                <span class="text-3xl font-bold">Programme des activites</span>
+                <span class="text-3xl font-bold">Programme des activités</span>
             </center>
         </div><br> <br>
 
@@ -32,7 +32,7 @@
                             </tr>
                             <tr>
                                 <td>09h00 - 09h05</td>
-                                <td>Hymn nationnale</td>
+                                <td>Hymne nationnale</td>
                             </tr>
                             <tr>
                                 <td>09h05 - 09h15</td>
@@ -48,7 +48,7 @@
                             </tr>
                             <tr>
                                 <td>11h00 - 11h15</td>
-                                <td>installations des invités dans la salle de conferences</td>
+                                <td>installations des invités dans la salle de conférences</td>
                             </tr>
                             <tr>
                                 <td>11h15 - 11h25</td>
@@ -72,7 +72,7 @@
                             </tr>
                             <tr>
                                 <td>17h00</td>
-                                <td>cloture de la premier journée</td>
+                                <td>cloture de la prémière journée</td>
                             </tr>
                         </tbody>
                     </table>
