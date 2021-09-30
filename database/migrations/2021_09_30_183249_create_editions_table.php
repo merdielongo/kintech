@@ -17,6 +17,7 @@ class CreateEditionsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('description')->nullable();
+            $table->timestamp('expiration');
             $table->timestamps();
         });
     }

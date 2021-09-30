@@ -16,7 +16,9 @@ class CreateParticipantsTable extends Migration
         Schema::create('participants', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('person_id');
-            $table->timestamp('');
+            $table->unsignedBigInteger('edition_id');
+            $table->boolean('status')->default(true);
+            $table->timestamp('exp');
             $table->timestamps();
         });
     }
