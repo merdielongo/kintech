@@ -11,28 +11,32 @@
             </div>
 
             <div class="mb-3 form-group col-lg-4">
-                <b>{!! Form::label('Post Nom') !!}</b>
+                <b>{!! Form::label('Post Nom') !!}</b> <br>
+                @error('last_name') <span class="text-sm text-danger">{{ $message }}</span> @enderror
                 {!! Form::text('project', null, ['class'=> 'form-control', 'wire:model' => 'last_name']) !!}
             </div>
 
             <div class="mb-3 form-group col-lg-4">
-                <b>{!! Form::label('Prénom') !!}</b>
+                <b>{!! Form::label('Prénom') !!}</b> <br>
+                @error('first_name') <span class="text-sm text-danger">{{ $message }}</span> @enderror
                 {!! Form::text('project', null, ['class'=> 'form-control', 'wire:model' => 'first_name']) !!}
             </div>
 
             <div class="mb-3 form-group col-lg-4">
-                <b>{!! Form::label('Sexe') !!}</b>
+                <b>{!! Form::label('Sexe') !!}</b> <br>
                 {!! Form::select('sex', ['h'=>'homme', 'f' =>'femme'], 'h', ['class'=> 'form-control', 'wire:model' => 'sex']) !!}
                 {{-- {!! Form::text('project', null, ['class'=> 'form-control']) !!} --}}
             </div>
 
             <div class="mb-3 form-group col-lg-4">
-                <b>{!! Form::label('Adresse email') !!}</b>
+                <b>{!! Form::label('Adresse email') !!}</b> <br>
+                @error('mail') <span class="text-sm text-danger">{{ $message }}</span> @enderror
                 {!! Form::text('project', null, ['class'=> 'form-control', 'wire:model' => 'mail']) !!}
             </div>
 
             <div class="mb-3 form-group col-lg-4">
                 <b>{!! Form::label('Numéro de télèphone') !!}</b>
+                @error('phone') <span class="text-sm text-danger">{{ $message }}</span> @enderror
                 {!! Form::text('project', null, ['class'=> 'form-control', 'wire:model' => 'phone']) !!}
             </div>
         </div>

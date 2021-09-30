@@ -18,7 +18,6 @@ class RegistractionParticipants extends Component
         'name'          => 'required',
         'last_name'     => 'required',
         'first_name'    => 'required',
-        'sex'           => 'required',
         'mail'          => 'required',
         'phone'         => 'required',
     ];
@@ -31,5 +30,6 @@ class RegistractionParticipants extends Component
 
     public function submit() {
         $this->validate();
+
     }
 }
