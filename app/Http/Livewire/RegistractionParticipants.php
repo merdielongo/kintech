@@ -36,11 +36,12 @@ class RegistractionParticipants extends Component
 
     public function submit() {
         $this->validate();
-        $person_ = Person::where('phone', $this->phone)->first();
-        $person = new Person();
-        $participant = new Participant();
-        $account_sid = $_ENV["TWILIO_ACCOUNT_SID"];
-        $auth_token = $_ENV["TWILIO_AUTH_TOKEN"];
+
+        $person_        = Person::where('phone', $this->phone)->first();
+        $person         = new Person();
+        $participant    = new Participant();
+        $account_sid    = $_ENV["TWILIO_ACCOUNT_SID"];
+        $auth_token     = $_ENV["TWILIO_AUTH_TOKEN"];
 
         if($person_ == null) {
             try {
@@ -52,7 +53,7 @@ class RegistractionParticipants extends Component
                 $person->phone      = $this->phone;
 
                 if($person->save()) {
-                    $participant->person_id = $person->id;
+                    $participant->person_id  = $person->id;
                     $participant->edition_id = 1;
                     $participant->exp = Carbon::create(2021, 11, 13);
 
