@@ -61,11 +61,10 @@ class RegistractionParticipants extends Component
                         $client = new Client($account_sid, $auth_token);
                         $client->messages->create($person->phone, [
                             "from" => "KinTech",
-                            "body" => "Félicitation, votre enregistrement à été effectuée avec succès"
+                            "body" => "Félicitation, votre enregistrement à été effectuée avec succès, nous vous contacterons très prochainement pour vous tenir informé des activités organisée par nos services, merci et à bientôt"
                         ]);
                         session()->flash('message',
-                        'Félicitation, votre enregistrement à été effectuée avec succès,
-                        nous vous contacterons très prochainement pour vous tenir informé des activités organisée par nos services, merci et a bientot');
+                        'Félicitation, votre enregistrement à été effectuée avec succès');
                     }else {
                         session()->flash('message', 'Un probleme est survenue pendant votre inscrption');
                     }
