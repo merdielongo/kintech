@@ -70,13 +70,12 @@ class ProjectRegister extends Component
 
         if($project_ == null) {
             if($projects->save()) {
-                $client = new Client($account_sid, $auth_token);
-                $client->messages->create($this->phone, [
-                    "from" => "KinTech",
-                    "body" => "Félicitation, votre enregistrement à été effectuée avec succès, nous vous contacterons très prochainement pour vous tenir informé des activités organisée par nos services, merci et à bientôt"
-                ]);
-                session()->flash('message',
-                'Félicitation, votre enregistrement à été effectuée avec succès');
+                // $client = new Client($account_sid, $auth_token);
+                // $client->messages->create($this->phone, [
+                //     "from" => "KinTech",
+                //     "body" => "Félicitation, votre enregistrement à été effectuée avec succès, nous vous contacterons très prochainement pour vous tenir informé des activités organisée par nos services, merci et à bientôt"
+                // ]);
+                session()->flash('message', 'Félicitation, votre enregistrement à été effectuée avec succès');
             }else {
                 session()->flash('error', 'Un probleme est survenue pendant votre inscrption');
             }

@@ -58,13 +58,12 @@ class RegistractionParticipants extends Component
                     $participant->exp = Carbon::create(2021, 11, 13);
 
                     if($participant->save()) {
-                        $client = new Client($account_sid, $auth_token);
-                        $client->messages->create($person->phone, [
-                            "from" => "KinTech",
-                            "body" => "Félicitation, votre enregistrement à été effectuée avec succès, nous vous contacterons très prochainement pour vous tenir informé des activités organisée par nos services, merci et à bientôt"
-                        ]);
-                        session()->flash('message',
-                        'Félicitation, votre enregistrement à été effectuée avec succès');
+                        // $client = new Client($account_sid, $auth_token);
+                        // $client->messages->create($person->phone, [
+                        //     "from" => "KinTech",
+                        //     "body" => "Félicitation, votre enregistrement à été effectuée avec succès, nous vous contacterons très prochainement pour vous tenir informé des activités organisée par nos services, merci et à bientôt"
+                        // ]);
+                        session()->flash('message', 'Félicitation, votre enregistrement à été effectuée avec succès');
                     }else {
                         session()->flash('message', 'Un probleme est survenue pendant votre inscrption');
                     }
