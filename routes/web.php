@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MemberController;
 use App\Http\Controllers\PagesController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -48,4 +49,7 @@ Route::get('/contact', [PagesController::class, 'contact'])->name('home.contact'
 Route::get('/program', [PagesController::class, 'program'])->name('home.program');
 Route::get('/event', [PagesController::class, 'event'])->name('home.event');
 
+
+
 /* private route definition ?? administration **/
+Route::get('/member/register', [MemberController::class, ]);
