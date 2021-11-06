@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\PagesController;
+use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,11 +16,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-require __DIR__.'/auth.php';
+Route::get('/', function () {
+    return Inertia::render('Welcome', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
+});
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return Inertia::render('Dashboard');
+})->name('dashboard');
+
+
+/* public route definition */
 Route::get('/', [PagesController::class, 'home'])->name('home.index');
 Route::get('/inscription', [PagesController::class, 'inscription'])->name('home.inscription');
 Route::get('/about', [PagesController::class, 'about'])->name('home.about');
@@ -36,4 +48,4 @@ Route::get('/contact', [PagesController::class, 'contact'])->name('home.contact'
 Route::get('/program', [PagesController::class, 'program'])->name('home.program');
 Route::get('/event', [PagesController::class, 'event'])->name('home.event');
 
-
+/* private route definition ?? administration **/
