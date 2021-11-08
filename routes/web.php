@@ -52,4 +52,5 @@ Route::get('/event', [PagesController::class, 'event'])->name('home.event');
 
 
 /* private route definition ?? administration **/
-Route::get('/member/register', [MemberController::class, ]);
+Route::get('/member/register', [MemberController::class, 'index'])->name('home.participant.index');
+Route::post('/member/register', [MemberController::class, 'activeMember'])->name('home.participation.save');
