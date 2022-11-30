@@ -16,14 +16,14 @@ class RegistractionParticipants extends Component
     public $name;
     public $last_name;
     public $first_name;
-    public $sex = 'h';
+    public $sex = 'H';
     public $mail;
     public $phone;
 
     protected $rules = [
-        'name'          => 'required',
-        'last_name'     => 'required',
-        'first_name'    => 'required',
+        'name'          => 'string|nullable',
+        'last_name'     => 'string|nullable|required',
+        'first_name'    => 'string|required',
         'mail'          => 'required',
         'phone'         => 'required',
     ];
@@ -37,13 +37,13 @@ class RegistractionParticipants extends Component
     public function submit() {
         $this->validate();
 
-        $person_        = Person::where('phone', $this->phone)->first();
-        $person         = new Person();
-        $participant    = new Participant();
-        $account_sid    = $_ENV["TWILIO_ACCOUNT_SID"];
-        $auth_token     = $_ENV["TWILIO_AUTH_TOKEN"];
+        $person_  = Person::query()->where('phone', $this->phone)->first();
+        $person = new Person();
+        $participant = new Participant();
+        $account_sid = $_ENV["TWILIO_ACCOUNT_SID"];
+        $auth_token = $_ENV["TWILIO_AUTH_TOKEN"];
 
-        if($person_ == null) {
+        if(!$person_->exists) {
             try {
                 $person->name       = $this->name;
                 $person->last_name  = $this->last_name;
@@ -55,7 +55,7 @@ class RegistractionParticipants extends Component
                 if($person->save()) {
                     $participant->person_id  = $person->id;
                     $participant->edition_id = 1;
-                    $participant->exp = Carbon::create(2021, 11, 13);
+                    $participant->exp = Carbon::create(2022, 12, 11);
 
                     if($participant->save()) {
                         // $client = new Client($account_sid, $auth_token);

@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <center>
-                <span>EDITION 2021</span> <br>
+                <span>EDITION 2022</span> <br>
                 <span class="text-3xl font-bold">Programme des activités</span>
             </center>
         </div><br> <br>
