@@ -25,7 +25,7 @@
                 <div class="mt-5 col-lg-6 col-md-6">
                     <div class="p-3 text-white fw-bold text-uppercase">
                         KINTECH <br>
-                        Edition 2021
+                        Edition 2022
                     </div>
 
                     <div class="p-4 mt-4 text-white text-uppercase fs-4">
@@ -141,7 +141,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3">
-                <img src="{{ asset('img/thumb/log.png') }}" alt="" class="w-100">
+                <img src="{{ asset('img/thumb/logo_kintech_2.png') }}" alt="" class="w-100">
             </div>
 
             <div class="col-lg-6 col-md-6 d-flex align-items-center">
@@ -241,15 +241,15 @@
     <img src="{{ asset('img/thumb/yvette-01.jpg') }}" alt="">
 </div>
 
-<div class="pt-5 pb-5">
-    <div class="container pt-2 pb-2">
+<div class="pt-4 pb-3">
+    <div class="container">
         <div class="row">
             <center><span class="text-3xl font-bold">Nos partenaires</span></center>
         </div><br><br>
 
         <div class="row">
-            <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 card">
+            <div class=" col-lg-2 col-md-2 offset-lg-3 offset-md-3">
+                <div class="border-0">
                     <div class="card-body">
                         <div class="card-text">
                             <img src="{{ asset('img/thumb/ville.png') }}" alt="" class="p-5">
@@ -258,8 +258,8 @@
                 </div>
             </div>
 
-            <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 card">
+            <div class=" col-lg-2 col-md-2">
+                <div class="border-0">
                     <div class="card-body">
                         <div class="card-text">
                             <img src="{{ asset('img/thumb/apdnk.jpg') }}" alt="">
@@ -268,25 +268,16 @@
                 </div>
             </div>
 
-            <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 bg-danger">
-                    <div class="card-body">
+            <div class=" col-lg-2 col-md-2">
+                <div class="border-0">
+                    <div class="card-body p-0">
                         <div class="card-text">
-                            <img src="{{ asset('img/thumb/credo.svg') }}" alt="" class="p-5">
+                            <img src="{{ asset('img/thumb/credo.png') }}" alt="" class="p-5">
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 card">
-                    <div class="card-body">
-                        <div class="card-text">
-                            <img src="{{ asset('img/thumb/apdnk.jpg') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

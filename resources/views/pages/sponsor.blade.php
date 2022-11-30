@@ -7,10 +7,10 @@
         <div class="row">
 
             <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 rounded-sm card">
+                <div class="border-0 card">
                     <div class="card-body">
-                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase rounded-full bg-info card-title">Bronze
-                            <span class="text-lg rounded-full badge bg-info">2.500$</span>
+                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase bg-secondary card-title">Bronze
+                            <span class="text-lg badge bg-info">2.500$</span>
                         </h5>
                         <div class="container mb-3 text-center">
 
@@ -38,10 +38,10 @@
             </div>
 
             <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 rounded-sm card">
+                <div class="border-0 card">
                     <div class="card-body">
-                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase rounded-full bg-info card-title">Gold
-                            <span class="text-lg rounded-full badge bg-info">5.000$</span>
+                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase bg-secondary card-title">Gold
+                            <span class="text-lg badge bg-info">5.000$</span>
                         </h5>
                         <div class="container mb-3 text-center">
 
@@ -69,10 +69,10 @@
             </div>
 
             <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 rounded-sm card">
+                <div class="border-0 card">
                     <div class="card-body">
-                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase rounded-full bg-info card-title">SILVER
-                            <span class="text-lg rounded-full badge bg-info">8.000$</span>
+                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase bg-secondary card-title">SILVER
+                            <span class="text-lg badge bg-info">8.000$</span>
                         </h5>
                         <div class="container mb-3 text-center">
 
@@ -99,10 +99,10 @@
                 </div>
             </div>
             <div class="mb-4 col-lg-3 col-md-3">
-                <div class="border-0 rounded-sm card">
+                <div class="border-0 card">
                     <div class="card-body">
-                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase rounded-full bg-info card-title">PLATINIUM
-                            <span class="text-lg rounded-full badge bg-info">10.000$</span>
+                        <h5 class="p-3 mt-4 mb-4 font-black text-center text-white uppercase bg-secondary card-title">PLATINIUM
+                            <span class="text-lg badge bg-info">10.000$</span>
                         </h5>
                         <div class="container mb-3 text-center">
 

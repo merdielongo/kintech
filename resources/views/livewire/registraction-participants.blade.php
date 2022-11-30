@@ -1,6 +1,7 @@
 <div>
+    <br><br>
     {!! Form::open(['wire:submit.prevent' => 'submit']) !!}
-    <div class="p-5 shadow-sm row card">
+    <div class="p-5 row card border-0 mt-5">
         <center><h5><b>Enregistrez-vous</b></h5> pour participer en tant que visiteur</center>
         @if (session()->has('message'))
             <div class="w-100 alert alert-success">
