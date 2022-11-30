@@ -141,7 +141,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3">
-                <img src="{{ asset('img/thumb/logo_kintech_2.png') }}" alt="" class="w-100">
+                <img src="{{ asset('img/thumb/logo_kintech_2.PNG') }}" alt="" class="w-100">
             </div>
 
             <div class="col-lg-6 col-md-6 d-flex align-items-center">
