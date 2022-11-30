@@ -1,7 +1,7 @@
 <nav class="shadow-sm navbar navbar-expand-lg navbar-dark fixed-top"  style="background: #A3386D">
     <div class="container">
         <a class="navbar-brand" href="{{ route('home.index') }}">
-            <img src="{{  asset('img/thumb/logo_kintech_2.png') }}" width="100">
+            <img src="{{  asset('img/thumb/logo_kintech_2.PNG') }}" width="100">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
