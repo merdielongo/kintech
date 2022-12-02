@@ -11,7 +11,6 @@
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{ route('home.index') }}">Accueil</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.event') }}">Évènement</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.program') }}">Programmes</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.exposition') }}">Exposants</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.sponsor') }}">Sponsors</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.concours') }}">Concours</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.contact') }}">Contact</a></li>
