@@ -1,4 +1,5 @@
-<nav class="shadow-sm navbar navbar-expand-lg navbar-dark fixed-top"  style="background: #A3386D">
+<nav class="shadow-sm navbar navbar-expand-lg navbar-dark fixed-top"  style="background: #3cb7d3">
+{{--<nav class="shadow-sm navbar navbar-expand-lg navbar-dark fixed-top"  style="background: #ff3b71">--}}
     <div class="container">
         <a class="navbar-brand" href="{{ route('home.index') }}">
             <img src="{{  asset('img/thumb/logo_kintech_2.PNG') }}" width="100">
@@ -14,7 +15,7 @@
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.sponsor') }}">Sponsors</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.concours') }}">Concours</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.contact') }}">Contact</a></li>
-                <li class=""><a class="p-2 shadow-sm ms-5 btn btn-primary rounded-pill" aria-current="page" href="{{ route('home.register') }}">Participez !</a></li>
+                <li class=""><a class="p-2 shadow-sm ms-5 btn btn-warning" aria-current="page" href="{{ route('home.register') }}">Participez !</a></li>
             </ul>
         </div>
     </div>

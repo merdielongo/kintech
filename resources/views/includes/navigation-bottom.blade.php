@@ -35,10 +35,10 @@
 </div>
 
 
-<div class="pt-2 pb-2 text-white" style="background: #A3386D">
+<div class="pt-2 pb-2 text-white" style="background: #ff3b71">
     <div class="container pt-2 pb-2">
         <div class="row">
-            <center><span class="font-semibold text-md">copyright &copy; 2022 all rights reserved design by <a href="https://credocreation.com">Credo creation</a></span></center>
+            <center><span class="font-semibold text-md">copyright &copy; 2022 all rights reserved design by <a href="https://credocreation.com" class="text-warning">Credo creation</a></span></center>
         </div>
     </div>
 </div>
