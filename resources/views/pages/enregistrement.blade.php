@@ -23,6 +23,7 @@
                         <li class="list-group-item"><b>4</b> Digitalisation des services publics.</li>
                         <li class="list-group-item"><b>5</b> Développement du secteur agricole.</li>
                         <li class="list-group-item"><b>6</b> L’Environnement urbain et rural.</li>
+                        <li class="list-group-item"><b>6</b> Art et Numerique</li>
                     </ul>
                 </div>
             </div>
