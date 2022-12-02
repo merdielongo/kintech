@@ -1,5 +1,5 @@
-<br><br><br>
 <div class="pt-5 pb-5 bg-white">
+    <hr>
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col-lg-4 col-md-4">

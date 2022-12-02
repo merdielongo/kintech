@@ -137,18 +137,8 @@
     </div>
 </div>
 
-<div class="p-5 text-white" style="background: #8D3D89">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-3">
-                <img src="{{ asset('img/thumb/logo_kintech_2.PNG') }}" alt="" class="w-100">
-            </div>
-
-            <div class="col-lg-6 col-md-6 d-flex align-items-center">
-                <p class="fs-4"><b>KINTECH</b>, Partenaire public de l’entreprenariat numérique à Kinshasa.</p>
-            </div>
-        </div>
-    </div>
+<div id="wrapper">
+    <img src="{{ asset('img/ban_2_2022.jpeg') }}" height="100" alt="">
 </div>
 
 
@@ -165,94 +155,47 @@
         </div>
 
 
-        <div class="mb-4 col-lg-3 col-md-3">
-            <div class="shadow-sm card">
+        <div class="mb-4 col-lg-3 col-md-3  offset-lg-1">
+            <a class="shadow-sm card" href="{{ route('home.exposition') }}">
                 <div class="img-card-top">
-                    <img src="{{ asset('img/thumb/t1.jpg') }}" alt="" class="w-100">
+                    <img src="{{ asset('img/reserver_2022.JPG') }}" alt="" class="w-100">
                 </div>
+            </a>
+        </div>
 
-                <div class="p-4 text-center card-content">
-                    <a class="mt-1 text-black fw-bold" href="{{ route('home.exposition') }}">Devenez exposant. <br> <br> <br> <br> </a>
-                    {{-- <a href="#" class="btn btn-danger">En savoir plus</a> --}}
+        <div class="mb-4 col-lg-3 col-md-3">
+            <a class="shadow-sm card" href="{{ route('home.register') }}">
+                <div class="img-card-top">
+                    <img src="{{ asset('img/register_2022.JPG') }}" alt="" class="w-100">
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="mb-4 col-lg-3 col-md-3">
             <div class="shadow-sm card">
                 <div class="img-card-top">
-                    <img src="{{ asset('img/thumb/t2.jpg') }}" alt="" class="w-100">
-                </div>
-
-                <div class="p-4 text-center card-content">
-                    <a class="mt-1 text-black fw-bold" href="{{ route('home.register') }}">Inscrivez –vous en ligne gratuitement et participez à l’évènement en tant que visiteur </a>
-                    {{-- <a href="#" class="btn btn-danger">En savoir plus</a> --}}
-                </div>
-            </div>
-        </div>
-
-        <div class="mb-4 col-lg-3 col-md-3">
-            <div class="shadow-sm card">
-                <div class="img-card-top">
-                    <img src="{{ asset('img/thumb/t3.jpg') }}" alt="" class="w-100">
-                </div>
-
-                <div class="p-4 text-center card-content">
-                    <a class="mt-1 text-black fw-bold" href="{{ route('home.sponsor') }}">Devenez sponsor <br><br> <br> <br></a>
-                    {{-- <a href="#" class="btn btn-danger">En savoir plus</a> --}}
+                    <img src="{{ asset('img/art_numeric.PNG') }}" alt="" class="w-100">
                 </div>
                 <br>
             </div>
         </div>
 
-
-
-        <div class="mb-4 col-lg-3 col-md-3">
-            <div class="shadow-sm card">
-                <div class="img-card-top">
-                    <img src="{{ asset('img/thumb/4.jpg') }}" alt="" class="w-100">
-                </div>
-            </div>
-        </div>
-
-
     </div>
 </div>
 
 
-
-
-
-<div style="background: #A3386D">
-    <div class="container pt-2 pb-2">
-        <div class="text-white row">
-            <div class="p-5 col-lg-4 col-md-4 offset-lg-4 offset-md-4">
-                <img class="w-100 rounded-2xl" src="{{ asset('img/thumb/gou.jpeg') }}" alt="">
-                <p class="mt-4 text-sm font-semibold text-left">
-                    “Sous le patronnage de SEM Gentiny Ngobila Mbaka, Gouverneur de la ville de kinshasa”
-                </p>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<div id="wrapper">
-    <img src="{{ asset('img/thumb/yvette-01.jpg') }}" alt="">
-</div>
-
-<div class="pt-4 pb-3">
+<div class="pt-4 pb-3 bg-white">
     <div class="container">
         <div class="row">
             <center><span class="text-3xl font-bold">Nos partenaires</span></center>
         </div><br><br>
 
         <div class="row">
-            <div class=" col-lg-2 col-md-2 offset-lg-3 offset-md-3">
+            <div class="col-lg-2 col-md-2">
                 <div class="border-0">
                     <div class="card-body">
                         <div class="card-text">
-                            <img src="{{ asset('img/thumb/ville.png') }}" alt="" class="p-5">
+                            <img src="{{ asset('img/credo.png') }}" alt="" class="p-5">
                         </div>
                     </div>
                 </div>
@@ -262,7 +205,7 @@
                 <div class="border-0">
                     <div class="card-body">
                         <div class="card-text">
-                            <img src="{{ asset('img/thumb/apdnk.jpg') }}" alt="">
+                            <img src="{{ asset('img/apdk.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -272,7 +215,27 @@
                 <div class="border-0">
                     <div class="card-body p-0">
                         <div class="card-text">
-                            <img src="{{ asset('img/thumb/credo.png') }}" alt="" class="p-5">
+                            <img src="{{ asset('img/illico.png') }}" alt="" class="p-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-2 col-md-2">
+                <div class="border-0">
+                    <div class="card-body p-0">
+                        <div class="card-text">
+                            <img src="{{ asset('img/castel.png') }}" alt="" class="p-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-2 col-md-2">
+                <div class="border-0">
+                    <div class="card-body p-0">
+                        <div class="card-text">
+                            <img src="{{ asset('img/ville.png') }}" alt="" class="p-5">
                         </div>
                     </div>
                 </div>
