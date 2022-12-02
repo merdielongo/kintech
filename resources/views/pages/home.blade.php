@@ -158,7 +158,7 @@
         <div class="d-flex">
             <a class="shadow-sm card" href="{{ route('home.exposition') }}">
                 <div class="img-card-top">
-                    <img src="{{ asset('img/reserver_2022.JPG') }}" alt="" width="500">
+                    <img src="{{ asset('img/rs.jpg') }}" alt="" width="500">
                 </div>
             </a>
 
@@ -171,7 +171,7 @@
 
             <a class="shadow-sm card" href="{{ route('home.register') }}">
                 <div class="img-card-top">
-                    <img src="{{ asset('img/register_2022.JPG') }}" alt="" width="500">
+                    <img src="{{ asset('img/ir.jpg') }}" alt="" width="500">
                 </div>
             </a>
 
