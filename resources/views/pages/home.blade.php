@@ -19,11 +19,11 @@
 {{--    </video>--}}
 
     <div class="relative z-30">
-        <div class="container p-4 card border-0">
+        <div class="container p-5 card border-0">
 {{--        <div class="container p-5" style="background: rgba(0, 0, 0, 0.5)">--}}
 
             <div class="row">
-                <div class="mt-5 col-lg-6 col-md-6">
+                <div class="mt-5 col-lg-6 col-md-6 mb-5">
                     <div class="p-3 text-danger fw-bold text-uppercase col-lg-5">
                         <img src="{{ asset('img/logo_.PNG') }}">
                     </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
 
-                <div class="mt-5 col-lg-6 col-md-6">
+                <div class="mt-5 col-lg-6 col-md-6 mb-5">
                     <span class="fw-normal text-uppercase fs-5">Organisé par le commissariat provincial en charge du numérique</span>
                     <div class="mt-3 row">
                         <div class="col-lg-12">
