@@ -75,6 +75,7 @@ class ProjectRegister extends Component
                 //     "from" => "KinTech",
                 //     "body" => "Félicitation, votre enregistrement à été effectuée avec succès, nous vous contacterons très prochainement pour vous tenir informé des activités organisée par nos services, merci et à bientôt"
                 // ]);
+                $this->reset();
                 session()->flash('message', 'Félicitation, votre enregistrement à été effectuée avec succès');
             }else {
                 session()->flash('error', 'Un probleme est survenue pendant votre inscrption');
