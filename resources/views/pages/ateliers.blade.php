@@ -13,13 +13,13 @@
             </div>
 
             <div class="col-lg-4 col-md-4">
-                <img src="{{ asset('img/ATÉLIER NEW-12.JPG') }}">
+                <img src="{{ asset('img/at_1.JPG') }}">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="{{ asset('img/ATÉLIER NEW-13.JPG') }}">
+                <img src="{{ asset('img/at_2.JPG') }}">
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="{{ asset('img/ATÉLIER NEW-14.JPG') }}">
+                <img src="{{ asset('img/at_3.JPG') }}">
             </div>
         </div>
 
