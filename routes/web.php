@@ -38,16 +38,15 @@ Route::get('/about', [PagesController::class, 'about'])->name('home.about');
 Route::get('/event', [PagesController::class, 'event'])->name('home.event');
 Route::get('/exposition', [PagesController::class, 'exposition'])->name('home.exposition');
 Route::get('/concours', [PagesController::class, 'enregistrement'])->name('home.concours');
+Route::get('/ateliers', [PagesController::class, 'ateliers'])->name('home.ateliers');
 Route::get('/contact', [PagesController::class, 'contact'])->name('home.contact');
 Route::get('/sponsor', [PagesController::class, 'sponsor'])->name('home.sponsor');
 Route::get('/enregistrement', [PagesController::class, 'enregistrement'])->name('home.enregistrement');
-// Route::get('/concours', [PagesController::class, 'enregistrement'])->name('home.enregistrement');
 Route::get('/project', [PagesController::class, 'project'])->name('home.project');
 Route::get('/sponsoring/{id}', [PagesController::class, 'sponsoring'])->name('home.sponsoring');
 Route::get('/inscription', [PagesController::class, 'register'])->name('home.register');
 Route::get('/contact', [PagesController::class, 'contact'])->name('home.contact');
 Route::get('/program', [PagesController::class, 'program'])->name('home.program');
-Route::get('/event', [PagesController::class, 'event'])->name('home.event');
 
 
 

@@ -52,4 +52,8 @@ class PagesController extends Controller
         return view('pages.program');
     }
 
+    public function ateliers() {
+        return view('pages.ateliers');
+    }
+
 }
