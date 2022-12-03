@@ -12,13 +12,13 @@
                 </center>
             </div>
 
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4 mb-3">
                 <img src="{{ asset('img/at_1.JPG') }}">
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4 mb-3">
                 <img src="{{ asset('img/at_2.JPG') }}">
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4 mb-3">
                 <img src="{{ asset('img/at_3.JPG') }}">
             </div>
         </div>
