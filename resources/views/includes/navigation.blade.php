@@ -13,7 +13,7 @@
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.event') }}">Évènement</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.program') }}">Programmes</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.sponsor') }}">Sponsors</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.concours') }}">Concours</a></li>
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.ateliers') }}">Ateliers</a></li>
                 <li class="nav-item"><a class="nav-link" aria-current="page" href="{{ route('home.contact') }}">Contact</a></li>
                 <li class=""><a class="p-2 shadow-sm ms-5 btn btn-warning" aria-current="page" href="{{ route('home.register') }}">Participez !</a></li>
             </ul>
