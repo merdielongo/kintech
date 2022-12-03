@@ -3,7 +3,7 @@
 
 @section('content')
 
-<header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+<header class="relative flex items-center justify-center">
 
 {{--    <video--}}
 {{--      autoplay--}}
@@ -18,7 +18,7 @@
 {{--      Your browser does not support the video tag.--}}
 {{--    </video>--}}
 
-    <div class="relative z-30">
+    <div class="relative z-30 mt-5">
         <div class="container p-5 card border-0">
 {{--        <div class="container p-5" style="background: rgba(0, 0, 0, 0.5)">--}}
 
