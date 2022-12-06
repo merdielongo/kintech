@@ -7,7 +7,7 @@
                     <li class="nav-item"><a href="#" class="font-bold nav-link text-danger">Navigation</a></li><br>
                     <li class="nav-item"><a href="{{ route('home.index') }}" class="nav-link text-dark">Accueil</a></li>
                     <li class="nav-item"><a href="{{ route('home.event') }}" class="nav-link text-dark">Evenement</a></li>
-                    <li class="nav-item"><a href="{{ route('home.concours') }}" class="nav-link text-dark">Concours</a></li>
+                    <li class="nav-item"><a href="{{ route('home.ateliers') }}" class="nav-link text-dark">Ateliers</a></li>
                     {{-- <li class="nav-item"><a href="#" class="nav-link text-dark">A propos</a></li> --}}
                 </ul>
             </div>
